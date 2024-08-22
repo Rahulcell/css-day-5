@@ -24,11 +24,22 @@ body {
 main{
     margin-top:80px;
 }
+.text{
+    color: white;
+    width: 8%;
+    font-size: 1.5rem;    
+    font-weight: bold;
+}
 nav{
     display:flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 37%;
+    /* justify-content: center; */
+}
+.kkk{
+   flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
 }
 strong{
     font-size: 1.9rem;
